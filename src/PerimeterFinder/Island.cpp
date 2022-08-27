@@ -21,19 +21,19 @@ int Island::GetPerimeter()
 			{
 				if (rowIndex == 0) // first row
 					perimeter++;
-				else if (arr[c - columns] == 0) // up
+				else if (arr[c - columns] == 0) // else looking above index
 					perimeter++;
 				if (rowIndex == rows - 1) // last row
 					perimeter++;
-				else if (arr[c + columns] == 0) // down
+				else if (arr[c + columns] == 0) // else looking below index
 					perimeter++;
 				if (colIndex == 0) // first column
 					perimeter++;
-				else if (arr[c - 1] == 0) // left
+				else if (arr[c - 1] == 0) // else looking to the left of index
 					perimeter++;
 				if (colIndex == columns - 1) // last column
 					perimeter++;
-				else if (arr[c + 1] == 0) // right
+				else if (arr[c + 1] == 0) // else looking to the right of index
 					perimeter++;
 			}
 		}

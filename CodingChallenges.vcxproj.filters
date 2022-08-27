@@ -26,5 +26,8 @@
     <ClInclude Include="src\PerimeterFinder\Island.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\ArrayPuzzle\ArrayPuzzle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
