@@ -1,10 +1,8 @@
 #include <iostream>
 
 #include "PerimeterFinder/Island.h"
-#include <string>
-#include <vector>
-#include <iomanip>
 #include "ArrayPuzzle/ArrayPuzzle.h"
+#include "FindTheImposter/FindTheImpostor.h"
 
 int main()
 {
@@ -18,7 +16,9 @@ int main()
 
 	*/
 
-	//Island island
+	std::cout << "Island Test" << std::endl;
+	Island island;
+	island.Test();
 
 
 	/* 
@@ -29,11 +29,27 @@ int main()
 		if the indexed number is different than the calculations, the function will return false
 		if all the numbers come back as they should, the function returns true
 	*/
-	//std::cout << tfArr({ 12,40,4,6420,20,24,400,24 }) << std::endl;
-	//std::cout << tfArr({ 14.9,98,7,15729,49,56,2401,58.8 }) << std::endl;
-	//std::cout << tfArr({ 12.6,52,5,8346,26,31,676,38 }) << std::endl;
 
-	
+	std::cout << std::endl;
+	std::cout << "Array Puzzle Test" << std::endl;
+
+
+	std::cout << tfArr({ 12,40,4,6420,20,24,400,24 }) << std::endl;
+	std::cout << tfArr({ 14.9,98,7,15729,49,56,2401,58.8 }) << std::endl;
+	std::cout << tfArr({ 12.6,52,5,8346,26,31,676,38 }) << std::endl;
+
+	/*
+		// Solve without using an if statement
+		
+		c is always equal to either a or b
+	*/
+
+	std::cout << std::endl;
+	std::cout << "Impostor Test" << std::endl;
+
+	std::cout << FindTheImpostor(-3, 4, -3) << std::endl;
+	std::cout << FindTheImpostor(23, 40, 40) << std::endl;
+	std::cout << FindTheImpostor(400, -900, -900) << std::endl;
 	
 	return 0;
 }

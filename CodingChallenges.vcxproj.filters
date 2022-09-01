@@ -29,5 +29,8 @@
     <ClInclude Include="src\ArrayPuzzle\ArrayPuzzle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\FindTheImposter\FindTheImposter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
