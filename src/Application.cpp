@@ -1,8 +1,12 @@
 #include <iostream>
+#include <string>
 
 #include "PerimeterFinder/Island.h"
 #include "ArrayPuzzle/ArrayPuzzle.h"
 #include "FindTheImposter/FindTheImpostor.h"
+#include "SpartansCipher/SpartansCipher.h"
+
+#include <chrono>
 
 int main()
 {
@@ -16,9 +20,9 @@ int main()
 
 	*/
 
-	std::cout << "Island Test" << std::endl;
+	/*std::cout << "Island Test" << std::endl;
 	Island island;
-	island.Test();
+	island.Test();*/
 
 
 	/* 
@@ -30,13 +34,13 @@ int main()
 		if all the numbers come back as they should, the function returns true
 	*/
 
-	std::cout << std::endl;
+	/*std::cout << std::endl;
 	std::cout << "Array Puzzle Test" << std::endl;
 
 
 	std::cout << tfArr({ 12,40,4,6420,20,24,400,24 }) << std::endl;
 	std::cout << tfArr({ 14.9,98,7,15729,49,56,2401,58.8 }) << std::endl;
-	std::cout << tfArr({ 12.6,52,5,8346,26,31,676,38 }) << std::endl;
+	std::cout << tfArr({ 12.6,52,5,8346,26,31,676,38 }) << std::endl;*/
 
 	/*
 		// Solve without using an if statement
@@ -44,12 +48,18 @@ int main()
 		c is always equal to either a or b
 	*/
 
-	std::cout << std::endl;
+	/*std::cout << std::endl;
 	std::cout << "Impostor Test" << std::endl;
 
 	std::cout << FindTheImpostor(-3, 4, -3) << std::endl;
 	std::cout << FindTheImpostor(23, 40, 40) << std::endl;
-	std::cout << FindTheImpostor(400, -900, -900) << std::endl;
+	std::cout << FindTheImpostor(400, -900, -900) << std::endl;*/
 	
+	char arr[] = { "TheQuickBrownFoxJumpsOverTheLazyDog." };
+	int length = sizeof(arr)/sizeof(arr[0]);
+	SpartansCipher(arr, length, 6);
+
+	SpartansCipher("TcnmrzhkFpTyeBoshDQrxOeouoJvLgiwuea.", 6);
+
 	return 0;
 }

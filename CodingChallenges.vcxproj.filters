@@ -29,7 +29,10 @@
     <ClInclude Include="src\ArrayPuzzle\ArrayPuzzle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\FindTheImposter\FindTheImposter.h">
+    <ClInclude Include="src\FindTheImposter\FindTheImpostor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SpartansCipher\SpartansCipher.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

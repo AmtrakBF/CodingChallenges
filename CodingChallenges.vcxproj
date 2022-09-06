@@ -132,8 +132,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\ArrayPuzzle\ArrayPuzzle.h" />
-    <ClInclude Include="src\FindTheImposter\FindTheImposter.h" />
+    <ClInclude Include="src\FindTheImposter\FindTheImpostor.h" />
     <ClInclude Include="src\PerimeterFinder\Island.h" />
+    <ClInclude Include="src\SpartansCipher\SpartansCipher.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

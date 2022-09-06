@@ -1,12 +1,4 @@
 ﻿  Application.cpp
-E:\Visual Studios\CodingChallenges\CodingChallenges\src\Application.cpp(38,56): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=float
-          ]
-E:\Visual Studios\CodingChallenges\CodingChallenges\src\Application.cpp(39,52): warning C4305: 'initializing': truncation from 'double' to '_Ty'
-          with
-          [
-              _Ty=float
-          ]
+E:\Visual Studios\CodingChallenges\CodingChallenges\src\SpartansCipher\SpartansCipher.h(10,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+E:\Visual Studios\CodingChallenges\CodingChallenges\src\SpartansCipher\SpartansCipher.h(42,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
   CodingChallenges.vcxproj -> E:\Visual Studios\CodingChallenges\x64\Debug\CodingChallenges.exe
